@@ -1,10 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://d22sljfynpsfd"]
+[gd_scene load_steps=2 format=3 uid="uid://8m0wjel08cav"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bri48"]
 size = Vector2(36, 26)
 
 [node name="Fall trigger" type="Area2D"]
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 2)
+position = Vector2(61, 11)
 shape = SubResource("RectangleShape2D_bri48")
