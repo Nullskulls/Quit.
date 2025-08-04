@@ -1,6 +1,6 @@
 extends Area2D
-@onready var player: CharacterBody2D = $"../player"
-@onready var end: Label = $"../../end"
+@onready var player: CharacterBody2D = $"../../player"
+@onready var end: Label = $"../../Labels/end"
 
 
 # Called when the node enters the scene tree for the first time.

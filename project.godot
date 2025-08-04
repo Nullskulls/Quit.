@@ -15,6 +15,14 @@ run/main_scene="uid://8jjarehmcn3q"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="res://scripts/default_bus_layout.tres"
+
+[autoload]
+
+Music="*res://scenes/music.tscn"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
